@@ -29,3 +29,7 @@ attached, it means this message was seen by a holder of the secret key at some
 point.
 
 ## Installation
+
+```bash
+composer require manueldimmler/hmac-signature-middleware
+```
