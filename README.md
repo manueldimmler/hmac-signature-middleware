@@ -14,7 +14,7 @@ $signatureMiddleware = new Http\Middleware\HmacSignatureMiddleware('secret key')
 To validate the signature, use the verification middleware.
 
 ```php
-/** @var ResponseFactoryInterface $responseFactory */
+/** @var \Psr\Http\Message\ResponseFactoryInterface $responseFactory */
 $signatureMiddleware = new Http\Middleware\HmacVerificationMiddleware('secret key', $responseFactory):
 ```
 
